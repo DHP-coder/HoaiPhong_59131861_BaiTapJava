@@ -13,13 +13,16 @@ import java.util.ArrayList;
  * @author DangHoaiPhong
  */
 public class QuanLyNhanVien implements IQuanLy{
-
+    //Tao danh sach nhan vien
     ArrayList<NhanVien> arrListNhanVien = new ArrayList<>();
+    
+    //Them nhan vien
     @Override
     public void them(NhanVien nv) {
         arrListNhanVien.add(nv);
     }
-
+    
+    //Xuat thong tin nhan vien
     @Override
     public void inDS() {
         arrListNhanVien.forEach((nv) -> {
