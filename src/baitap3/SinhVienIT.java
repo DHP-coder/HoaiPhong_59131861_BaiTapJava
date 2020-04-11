@@ -21,6 +21,7 @@ public class SinhVienIT extends SinhVienPoly{
     this.diemHtml=diemHtml;
     this.diemCss=diemCss;
     };
+    
     @Override
     public double getDiem() {
         return (2*this.diemJava+this.diemHtml+this.diemCss)/4;

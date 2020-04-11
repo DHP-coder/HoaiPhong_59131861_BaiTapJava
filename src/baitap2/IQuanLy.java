@@ -11,6 +11,7 @@ import baitap1.NhanVien;
  *
  * @author DangHoaiPhong
  */
+//Interface IQuanLy
 public interface IQuanLy {
     void them(NhanVien nv);
     void inDS();

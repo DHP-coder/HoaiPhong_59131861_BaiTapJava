@@ -10,7 +10,7 @@ package baitap3;
  * @author DangHoaiPhong
  */
 public class SinhVienBiz extends SinhVienPoly{
-//
+
     public double diemMarketing;
     public double diemSales;
     
@@ -19,6 +19,7 @@ public class SinhVienBiz extends SinhVienPoly{
     this.diemMarketing=diemMarketing;
     this.diemSales=diemSales;
     }
+    
     @Override
     double getDiem() {
         return (2*diemMarketing+diemSales)/3;

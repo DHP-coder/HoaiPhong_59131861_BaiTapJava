@@ -28,6 +28,5 @@ public class QuanLyNhanVien implements IQuanLy{
         arrListNhanVien.forEach((nv) -> {
             nv.getThongTin();
         });
-    }
-    
+    } 
 }

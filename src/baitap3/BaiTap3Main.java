@@ -18,11 +18,11 @@ public class BaiTap3Main {
         SinhVienIT it = new SinhVienIT("Dang Hoai Phong", "CNTT", 8, 9, 10);
         SinhVienBiz biz = new SinhVienBiz("Nguyen Thi A", "Biz", 6, 7);
         it.xuat();
-        System.out.println("diem: " + it.getDiem());
-        System.out.println("hoc luc: " + it.getHocLuc());
+        System.out.println("Diem: " + it.getDiem());
+        System.out.println("Hoc luc: " + it.getHocLuc());
         biz.xuat();
-        System.out.println("diem: " + biz.getDiem());
-        System.out.println("hoc luc: " + biz.getHocLuc());
+        System.out.println("Diem: " + biz.getDiem());
+        System.out.println("Hoc luc: " + biz.getHocLuc());
     }
     
 }

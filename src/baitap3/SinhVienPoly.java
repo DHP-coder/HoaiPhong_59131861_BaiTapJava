@@ -18,8 +18,10 @@ abstract class SinhVienPoly {
     this.hoTen=hoTen;
     this.nganh=nganh;
     }
+    
     //Phuong thuc truu tuong getDiem()
     abstract double getDiem();
+    
     //Phuong thuc xet hoc luc
     public String getHocLuc(){
     if(this.getDiem()<5){
@@ -36,6 +38,7 @@ abstract class SinhVienPoly {
     }
     return "Xuat sac";
     };
+    
     //Phuong thuc xuat ho ten va nganh hoc
     public void xuat(){
     System.out.println("Ho ten: " + this.hoTen + ", nganh hoc: " + this.nganh);

@@ -15,7 +15,8 @@ public class BaiTap1Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-           
+        
+        // Khoi tao 2 bien nhan vien va in thong tin ra man hinh  
         NhanVien nv1=new NhanVien("Dang Hoai Phong", 21, "Ninh Hoa",10000000,200);
         NhanVien nv2=new NhanVien("DHP", 22, "Nha Trang",20000000,100);
     }
